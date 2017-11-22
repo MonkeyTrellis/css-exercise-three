@@ -1,21 +1,59 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #333;
   font-family: sans-serif;
-  font-size: 10px;
+  font-size: 12px;
 }
+
+/* big box */
 
 .container {
-  margin: 0 auto;
-  width: 420px;
-}
-
-nav {
-  margin: 0 auto;
-  padding: 10px 0 15px 15px;
-  position: fixed;
-  width: 420px;
+  background-color: #e5e5e5;
+  margin: auto;
+  width: 50%;
+  height: 60%;
 }
 
 .restaurant-list {
-  padding-top: 50px;
+  padding-top: 8.5%;
+}
+
+/* arrow left */
+
+nav {
+  padding: 10px 0 15px 15px;
+  position: fixed;
+  width: 50%;
+  background-color: #000000;
+}
+
+.arrow-left {
+  float: left;
+  margin-left: 2%;
+}
+
+/* small grey boxes and inside them */
+
+.location {
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+
+.content {
+  display: inline-block;
+  margin: 5%;
+}
+
+.arrow {
+  float: right;
+  margin: 5%;
+}
+
+h1 {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: 2%;
 }
