@@ -12,13 +12,13 @@ body {
 
 .container {
   background-color: #e5e5e5;
-  margin: auto;
-  width: 50%;
-  height: 60%;
+  margin:auto;
+  width: 420px;
+  /*height: 60%;*/
 }
 
 .restaurant-list {
-  padding-top: 8%;
+  padding-top: 50px;
 }
 
 /* arrow left */
@@ -26,7 +26,7 @@ body {
 nav {
   padding: 10px 0 15px 15px;
   position: fixed;
-  width: 50%;
+  width: 420px;
   background-color: #000000;
 }
 
@@ -56,7 +56,7 @@ nav {
   margin: 5%;
 }
 
-h1 {
+.location h1 {
   font-size: 1.3em;
   font-weight: bold;
   margin-bottom: 2%;
